@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-style: black;
+    border: solid;
+}
+
+.button {
+    border-style: solid;
+    border: solid, black;
+    height: auto;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+#buttondiv {
+    background-color: salmon;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+    border-style: solid;
+    border: solid, black;
+    display: flex;
+    flex-direction: row;
+}
+
+#numbersdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: salmon;
+    border-style: solid;
+    border: solid, black;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border: solid, black;
+
+}
+
+#calculate {
+    justify-content: center;
+}
+
+#clear {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border: solid, black;
+    background-color: red;
+}

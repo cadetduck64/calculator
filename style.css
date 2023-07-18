@@ -1,6 +1,19 @@
-body {
+#body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#calcbody {
     display: flex;
     flex-direction: column;
+    border-style: black;
+    border: solid;
+    border-radius: 1%;
+    width: 800px;
+    height: auto;
+    background-color: silver;
+    align-items: center;
 }
 
 #display {
@@ -9,6 +22,9 @@ body {
     background-color: beige;
     border-style: black;
     border: solid;
+    align-items: center;
+    height: 100px;
+    width: 600px;
 }
 
 .button {
@@ -19,6 +35,8 @@ body {
     display: flex;
     flex-direction: row;
     background-color: aqua;
+    width: 80px;
+    justify-content: center;
 }
 
 #buttondiv {
@@ -26,10 +44,9 @@ body {
     justify-content: space-around;
     height: auto;
     width: auto;
-    border-style: solid;
-    border: solid, black;
     display: flex;
     flex-direction: row;
+    width: 326px;
 }
 
 #numbersdiv {
@@ -39,6 +56,10 @@ body {
     background-color: salmon;
     border-style: solid;
     border: solid, black;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .number {
@@ -46,7 +67,9 @@ body {
     justify-content: center;
     border-style: solid;
     border: solid, black;
-
+    width: 60px;
+    margin: 5px;
+    background-color: aqua;
 }
 
 #calculate {
@@ -59,4 +82,18 @@ body {
     border-style: solid;
     border: solid, black;
     background-color: red;
+    margin: 5px;
+    width: 80px
+}
+
+.calcbutton{
+    border-style: solid;
+    border: solid, black;
+    height: auto;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    margin: 5px;
+    width: 600px;
 }

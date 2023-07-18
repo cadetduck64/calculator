@@ -34,7 +34,7 @@ let secondNumberList = [] //populated second entry. utilized by function for  ta
 
 numberBank = (number, operand) => {
     console.log(operand)
-    if (operand == "") {operand = undefined}
+    if (operand == "") {operand = undefined, display.textContent = 'Syntax error, press clear'}
     console.log(operand)
     console.log(number)
     if (number == undefined) {return operator = undefined, display.textContent = 'Syntax error, no operater, add a number first'} // if user had not inputted a number, the function stops
@@ -110,7 +110,8 @@ zero.addEventListener('click', () => {entry =  0, numberBank(entry, operator)})
 //clear button
 let clear = document.querySelector('#clear')
 clear.addEventListener('click', () => {operator = '';
-nums = [concatedNumber = 0, secondConcatedNumber = 0], operand = undefined, display.textContent = 'Display Cleared'})
+numberList = [], secondNumberList = [], sum = undefined, operand = undefined, concatedNumber = undefined, secondConcatedNumber = undefined,
+display.textContent = 'Display Cleared'})
 
 
 operate = (num1, operation, num2) => {
